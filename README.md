@@ -1,6 +1,8 @@
 # DISCLAIMER
 
-WolfTOTP is a fork of [Pebble Authenticator](https://github.com/cpfair/pTOTP) (a fork of [pTOTP](https://github.com/abl/pTOTP)) is meant to be used **with another official & reliable authenticator**. Do not make it the sole means of accessing your accounts.
+WolfTOTP is a fork of [Pebble Authenticator](https://github.com/cpfair/pTOTP) (a fork of [pTOTP](https://github.com/abl/pTOTP) as well).
+
+*WARNING*: Do not make it the sole means of accessing your accounts.
 
 While I have done my best to guard the credentials you enter in this application, I cannot guarantee that they will remain forever safe from prying eyes.
 
