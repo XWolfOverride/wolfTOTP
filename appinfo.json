@@ -15,29 +15,42 @@
     "capabilities": [
         "configurable"
     ],
-    "companyName": "Public Domain",
-    "longName": "Pebble Authenticator",
+    "companyName": "Indeed Solutions",
+    "longName": "WolfTOTP",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/icon.png",
+                "file": "images/icon_color.png",
                 "menuIcon": true,
-                "name": "ICON",
-                "type": "png"
+                "name": "MAINICON",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/icon_mono.png",
+                "memoryFormat": "1Bit",
+                "name": "MAINICON",
+                "storageFormat": "pbi",
+                "targetPlatforms": [
+                    "aplite"
+                ],
+                "type": "bitmap"
             }
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Authenticator",
+    "shortName": "WolfTOTP",
     "targetPlatforms": [
         "aplite",
         "basalt",
         "chalk"
     ],
-    "uuid": "da96ea4e-7793-4301-9d9a-68714a902730",
-    "versionCode": 7,
-    "versionLabel": "1.7",
+    "uuid": "b74de039-63b4-4135-8bea-8acb1cff0761",
+    "versionLabel": "1",
     "watchapp": {
         "watchface": false
     }
